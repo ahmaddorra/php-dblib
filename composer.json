@@ -1,0 +1,24 @@
+{
+    "name": "ahmaddorra/php-dblib",
+    "type": "library",
+    "description": "PDO DBLIB or for Laravel 8",
+    "keywords": ["odbc","laravel"],
+    "authors": [
+        {
+            "name": "Ahmad Dorra",
+            "email": "ahmadeldorra1@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "9.x-dev",
+        "illuminate/database": "9.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpDbLib\\Database\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
