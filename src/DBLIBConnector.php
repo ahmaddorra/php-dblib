@@ -26,8 +26,8 @@ class DBLIBConnector extends BaseConnector implements ConnectorInterface
             $dsn .= ';port='.$params['port'];
         }
 
-        if (isset($params['dbname'])) {
-            $dsn .= ';dbname='.$params['dbname'];
+        if (isset($params['database'])) {
+            $dsn .= ';dbname='.$params['database'];
         }
 
         return $dsn;
